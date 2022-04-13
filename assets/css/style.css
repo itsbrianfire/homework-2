@@ -23,7 +23,8 @@ body {
     align-items: center;
     padding: 1%;
     transition: .5s ease;
-    color: #fff;
+    color: #144d7fd7;
+    background-color: #355b7d17;
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
   }
 
@@ -168,41 +169,122 @@ body {
     width: 55%;
     margin: 2%;
     margin-left: 5%;
+    display: inline-flex;
+    align-items: flex-start
   }
 
-  .work-1-img {
-    display: block;
-    margin: 2% 0;
+
+  .card-group-1 {
+    background: rgba(255, 255, 255, 0);
+    position: relative;
+    cursor: pointer;
   }
 
-  .work-1-img:hover {
-    background: #fff;
+  .card-group-1:hover {
+    background: #18456fb2;
     position: relative;
     cursor: pointer;
     transition: .8s ease;
   }
 
-  .work-container:hover .middle-box {
-    opacity: 1;
+  .card-group-2 {
+    background: rgba(255, 255, 255, 0);
+    position: relative;
     cursor: pointer;
   }
 
-  .middle-box {
+  .card-group-2:hover {
+    background: #18456fb2;
+    position: relative;
+    cursor: pointer;
     transition: .8s ease;
-    opacity: 0;
-    position: absolute;
-    top: 44%;
-    left: 43%;
-    text-align: center;
   }
 
-  .img-textbox {
+  .card-group-3 {
+    background: rgba(255, 255, 255, 0);
+    position: relative;
+    cursor: pointer;
+  }
+
+  .card-group-3:hover {
+    background: #18456fb2;
+    position: relative;
+    cursor: pointer;
+    transition: .8s ease;
+  }
+
+  .card-group-4 {
+    background: rgba(255, 255, 255, 0);
+    position: relative;
+    cursor: pointer;
+  }
+
+  .card-group-4:hover {
+    background: #18456fb2;
+    position: relative;
+    cursor: pointer;
+    transition: .8s ease;
+  }
+
+  .card-group-5 {
+    background: rgba(255, 255, 255, 0);
+    position: relative;
+    cursor: pointer;
+  }
+
+  .card-group-5:hover {
+    background: #18456fb2;
+    position: relative;
+    cursor: pointer;
+    transition: .8s ease;
+  }
+
+  .card-group-6 {
+    background: rgba(255, 255, 255, 0);
+    position: relative;
+    cursor: pointer;
+  }
+
+  .card-group-6:hover {
+    background: #18456fb2;
+    position: relative;
+    cursor: pointer;
+    transition: .8s ease;
+  }
+
+  .card-group-7 {
+    background: rgba(255, 255, 255, 0);
+    position: relative;
+    cursor: pointer;
+  }
+
+  .card-group-7:hover {
+    background: #18456fb2;
+    position: relative;
+    cursor: pointer;
+    transition: .8s ease;
+  }
+
+  .card-group-8 {
+    background: rgba(255, 255, 255, 0);
+    position: relative;
+    cursor: pointer;
+  }
+
+  .card-group-8:hover {
+    background: #18456fb2;
+    position: relative;
+    cursor: pointer;
+    transition: .8s ease;
+  }
+
+  /* .img-textbox {
     background-color: #04a7aad0;
     color: white;
     position: center;
     font-size: 16px;
     padding: 16px 32px;
-  }
+  } */
   
   article ul {
     margin-left: 5%;
@@ -230,6 +312,7 @@ body {
     justify-content: center;
     padding: 2%;
     color: #fff;
+    text-align: center
   }
   
   @media screen and (max-width: 768px) {
@@ -248,11 +331,6 @@ body {
       justify-content: space-around;  
       max-width: 1381px;
       flex-direction: column;
-    }
-
-    .work-1-img {
-      width:auto;/*maintain aspect ratio*/
-      max-width: 332px;
     }
 
   }

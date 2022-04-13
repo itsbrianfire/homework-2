@@ -3,39 +3,37 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Advanced Selectors with CSS</title>
-  <!-- <link rel="stylesheet" href="./assets/css/reset.css" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Brian Garcia's Portfolio</title>
+
+  <!-- linked css + bootstrap code /> -->
   <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
 
   <header>
-    <h1>Brian Garcia's Portfolio</h1>
 
-    <nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">Brian Garcia's Portfolio</h1>
+      </div>
+    </div>
 
-      <ul>
-
-        <li>
-            <a href="#about-me" alt="about me">About Me</a>
-        </li>
-
-        <li>
-            <a href="#work" alt="work">Work</a>
-        </li>
-
-        <li>
-            <a href="#contact-me" alt="contact me">Contact Me</a>
-        </li>
-
-        <li>
-            <a href="#resume" alt="resume">Resume</a>
-        </li>
-
-      </ul>
-
+    <nav class="navbar navbar-light" style="background-color: #00448330;">
+      <a class="navbar-brand" href="#">Portfolio Dropdown</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#about-me" alt="about me">About Me <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#work" alt="work">Work</a>
+          <a class="nav-item nav-link" href="#contact-me" alt="contact me">Contact Me</a>
+          <a class="nav-item nav-link disabled" href="#resume" alt="resume">Resume</a>
+        </div>
+      </div>
     </nav>
     
   </header>
@@ -81,13 +79,95 @@
         </aside>   
         
         <article class="work-container">
-
-          <a href="https://itsbrianfire.github.io/homework-1/" target="_blank">
-            <img src="./assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpeg" alt="Fruitful - Free WordPress Responsive theme source code" class="work-1-img">
-              <div class="middle-box">
-                  <div class="img-textbox">Work 1</div>
+          
+          <div class="card-group-1">
+            <div class="card">
+              <a href="https://github.com/itsbrianfire/code-refactor" target="_blank">
+              <img class="card-img-top" src="./assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Code Refactor</h5>
+                <p class="card-text">Code refactor project via Georgia Tech's full stack developer bootcamp.</p>
               </div>
-          </a>    
+              </a>
+            </div>
+          </div>  
+          <div class="card-group-2">
+            <div class="card">
+              <a href="https://github.com/itsbrianfire/personal-portfolio" target="_blank">
+              <img class="card-img-top" src="./assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Personal Portfolio</h5>
+                <p class="card-text">Personal portfolio project via Georgia Tech's full stack developer bootcamp.</p>
+              </div>
+              </a>
+            </div>
+          </div> 
+          <div class="card-group-3">
+            <div class="card">
+              <a href="https://github.com/itsbrianfire/password-generator" target="_blank">
+              <img class="card-img-top" src="./assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Password Generator</h5>
+                <p class="card-text">Password generator project via Georgia Tech's full stack developer bootcamp.</p>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-group-4">
+            <div class="card">
+              <a href="https://github.com/itsbrianfire/work-day-scheduler" target="_blank">
+              <img class="card-img-top" src="./assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Work Day Scheduler</h5>
+                <p class="card-text">Work day scheduler project via Georgia Tech's full stack developer bootcamp.</p>
+              </div>
+              </a>
+            </div>
+          </div> 
+          <div class="card-group-5">
+            <div class="card">
+              <a href="https://github.com/laurenagra/Peak-Performance" target="_blank">
+              <img class="card-img-top" src="./assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Peak Performance Trainer Calendar</h5>
+                <p class="card-text">Professional trainer calendar team project via Georgia Tech's full stack developer bootcamp.</p>
+              </div>
+              </a>
+            </div>
+          </div>  
+          <div class="card-group-6">
+            <div class="card">
+              <a href="https://github.com/itsbrianfire/homework-9-readme-generator" target="_blank">
+              <img class="card-img-top" src="./assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">README Generator</h5>
+                <p class="card-text">README generator project via Georgia Tech's full stack developer bootcamp.</p>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-group-7">
+            <div class="card">
+              <a href="https://github.com/itsbrianfire/10-Team-Profile-Generator" target="_blank">
+              <img class="card-img-top" src="./assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Team Profile Generator</h5>
+                <p class="card-text">Team profile generator project via Georgia Tech's full stack developer bootcamp.</p>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-group-8">
+            <div class="card">
+              <a href="https://github.com/mblackwellgca/Kinetic-Tickets" target="_blank">
+              <img class="card-img-top" src="./assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Kinetic Tickets Ticketing System</h5>
+                <p class="card-text">Ticketing system team project via Georgia Tech's full stack developer bootcamp.</p>
+              </div>
+              </a>
+            </div>
+          </div>
     
         </article>
 
@@ -100,27 +180,20 @@
         </aside>
 
         <article id="contact-me" class="contact-me">
-          
             <ul>
-  
               <li>
                 P. <a href="tel:678-983-9248">678-983-9248</a>
               </li>
-  
               <li>
                 E. <a href="mailto:brianhgarcia@gmail.com">brianhgarcia@gmail.com</a>
               </li>
-  
               <li>
-                Git. <a href="https://github.com/itsbrianfire" target="_blank">github.com/itsbrianfire</a>
+                Git. <a href="https://github.com/itsbrianfire" target="_blank">/itsbrianfire</a>
               </li>
-
               <li>
-                LinkedIn <a href="https://www.linkedin.com/in/brian-henry-garcia/" target="_blank">github.com/itsbrianfire</a>
+                LinkedIn <a href="https://www.linkedin.com/in/brian-henry-garcia/" target="_blank">Brian Garcia</a>
               </li>
-  
             </ul>
-    
         </article>
 
         <aside class="resume">
@@ -152,6 +225,9 @@
     <span>Thanks for visiting!</span>
   </footer>
 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
 </body>
 
 </html>
