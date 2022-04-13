@@ -53,7 +53,7 @@ Please adhere to this project's `code of conduct`. For additional guidance, plea
 
 ## Link To Deployed
 
-The way to run/ use this application is via this link: https://itsbrianfire.github.io/homework-2/
+The way to run/ use this application is via this link: https://itsbrianfire.github.io/personal-portfolio/
 
 ## Support and Developer Contact
 
